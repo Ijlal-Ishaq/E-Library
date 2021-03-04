@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_lib_book">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="13dp"
+        android:background="@drawable/options_background"
+        android:elevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="15dp"
+                android:paddingTop="9dp"
+                android:paddingRight="13dp"
+                android:paddingBottom="0dp"
+                android:text="Book's Name"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/options_background"
+                android:backgroundTint="@color/colorPrimary"
+                android:elevation="3dp"
+                android:ems="10"
+                android:fontFamily="@font/roboto"
+
+                android:gravity="start|top"
+                android:hint="Book's Name here..."
+                android:inputType="textMultiLine"
+                android:padding="9dp"
+                android:textColor="@color/colorlight"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="15dp"
+                android:paddingTop="3dp"
+                android:paddingRight="13dp"
+                android:paddingBottom="0dp"
+                android:text="Book's Description"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/options_background"
+                android:backgroundTint="@color/colorPrimary"
+                android:elevation="3dp"
+                android:ems="10"
+                android:fontFamily="@font/roboto"
+
+                android:gravity="start|top"
+                android:hint="Description here..."
+                android:inputType="textMultiLine"
+                android:padding="9dp"
+                android:textColor="@color/colorlight"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="15dp"
+                android:paddingTop="3dp"
+                android:paddingRight="13dp"
+                android:paddingBottom="0dp"
+                android:text="Book's Author"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/options_background"
+                android:backgroundTint="@color/colorPrimary"
+                android:elevation="3dp"
+                android:ems="10"
+                android:fontFamily="@font/roboto"
+
+                android:gravity="start|top"
+                android:hint="Author here..."
+                android:inputType="textMultiLine"
+                android:padding="9dp"
+                android:textColor="@color/colorlight"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/roboto"
+                android:paddingLeft="15dp"
+                android:paddingTop="3dp"
+                android:paddingRight="13dp"
+                android:paddingBottom="0dp"
+                android:text="Book's Location"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/options_background"
+                android:backgroundTint="@color/colorPrimary"
+                android:elevation="3dp"
+                android:ems="10"
+                android:fontFamily="@font/roboto"
+                android:gravity="start|top"
+                android:hint="i.e. Section A ,3rd Shelf..."
+                android:inputType="textMultiLine"
+                android:padding="9dp"
+                android:textColor="@color/colorlight"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:textSize="18sp" />
+
+            <Button
+
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+
+                android:background="@drawable/options_background"
+                android:backgroundTint="@color/colorAccent"
+                android:text="Add"
+                android:textColor="@color/colorPrimaryDark"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

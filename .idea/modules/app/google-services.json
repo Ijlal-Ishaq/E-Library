@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1063670455403",
+    "firebase_url": "https://ubit-library.firebaseio.com",
+    "project_id": "ubit-library",
+    "storage_bucket": "ubit-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063670455403:android:76305788b2c8d4ff05252e",
+        "android_client_info": {
+          "package_name": "com.example.ubitlibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063670455403-po5j5v2esuf5rapu6nda0udjeg1huqjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ubitlibrary",
+            "certificate_hash": "83c6832720ac89f899a431b6e1dccaf8e168b12c"
+          }
+        },
+        {
+          "client_id": "1063670455403-ia3t34sms9cbvfa34d6cut6g01kv4jeq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ubitlibrary",
+            "certificate_hash": "c68bb4cca69e0afe2ec44669a603ac12dee3c1bb"
+          }
+        },
+        {
+          "client_id": "1063670455403-np9n2uupb629h9gdmme4b2039ksqmjst.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRjmFsr-sjKIEcgciOmbS8tGVIkX7zqgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063670455403-np9n2uupb629h9gdmme4b2039ksqmjst.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
